@@ -1,0 +1,92 @@
+
+@keyframes selecinfo {
+    from{left:-15}
+    to{left:35}
+}
+@font-face {
+    font-family: qhyts;
+    src: url("fonts/qhyts___.ttf");
+    src: 
+    url("fonts/qhyts___.ttf") format("woff"),
+    url("fonts/qhyts___.ttf") format("opentype"),
+    url("fonts/qhyts___.ttf") format("svg");
+}
+@font-face {
+    font-family: accu;
+    src: url("fonts/Accuratist.ttf");
+    src: 
+    url("fonts/Accuratist.ttf") format("woff"),
+    url("fonts/Accuratist.ttf") format("opentype"),
+    url("fonts/Accuratist.ttf") format("svg");
+}
+    
+
+
+body{
+    font-family: accu;
+    font-size: 40px;
+    margin: 0px;
+    background-color: beige;
+}
+#tit{
+    font-family: accu;
+    font-size: 155px;
+    margin:0px;
+    font-kerning: 10px;
+    vertical-align: middle;
+    background-color: beige;
+    text-align: left;
+    display: inline-flex;
+}
+.bold{
+    display: inline-block;
+    width: 190px; 
+    font-size: 155px;
+    margin-right: 5px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(0, 193, 252);
+    font-synthesis: weight;
+}
+#contopciones{
+    padding-right:20px;
+    margin-left: 10%;
+    width: 60%;
+    display: inline-block;
+}
+.op {
+    left:0px;
+    transition: 400ms;
+    background-color: rgb(236, 128, 240);
+    position: relative;
+    vertical-align: middle;
+    box-shadow: -0px 0px 0 0 pink;
+}
+.op:hover{
+    left: 20px;
+    background-color: rgb(0, 193, 252);
+    box-shadow: -20px 0px 0 0 lightblue;
+}
+
+
+.opmenu{
+    height: 150px;
+    width: 150px;
+    display:inline-flex;
+    vertical-align: middle;
+}
+
+.opmenuinfo{
+    display: none;
+    animation: selecinfo 100ms;
+    position:relative;
+    left:35px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+#cont2{
+    display: inline-flex;
+    vertical-align: top;
+
+}
